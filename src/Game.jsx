@@ -1024,7 +1024,7 @@ export default function Game() {
               onMouseOut={e=>e.target.style.transform="scale(1)"}
             >PLAY AGAIN</button>
             <button onClick={() => {
-              const text = `🚨 BREAKING: WMZ has learned that ${displayName} has been secretly renovating a beachside property and already completed ${score} doors and windows before photographers caught them! 📸🏠🌴 Can you beat my score? https://renoreporters.lol`;
+              const text = `🚨 BREAKING: WMZ has learned that ${displayName} has been secretly renovating a beachside property and already completed ${score} doors and windows before photographers caught them! 📸🏠🌴 Can you beat my score? http://renoreporters.lol`;
               const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
               window.open(url, '_blank');
             }} style={{
