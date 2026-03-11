@@ -916,7 +916,7 @@ export default function Game() {
       <div style={bg}>
         <div style={{position:"absolute",top:25,right:55,width:75,height:75,borderRadius:"50%",background:`radial-gradient(circle at 50% 45%, ${C.gold}, #f0d060)`,boxShadow:`0 0 50px ${C.gold}55`}}/>
         <h1 style={{fontSize:"clamp(2rem,7vw,4.2rem)",fontWeight:900,color:C.door,textShadow:`0 2px 12px ${C.seafoam}88`,marginBottom:6,letterSpacing:2,textAlign:"center"}}>
-          🌴 RENO RAMPAGE 🌴
+          🌴 RENO REPORTERS 🌴
         </h1>
         <p style={{fontSize:"clamp(0.85rem,2vw,1.1rem)",color:C.textLight,textAlign:"center",maxWidth:500,lineHeight:1.7,marginBottom:20,padding:"0 20px"}}>
           You're inside a beachside fixer-upper! Walk up to glowing doors & windows to renovate them.
@@ -1024,12 +1024,12 @@ export default function Game() {
               onMouseOut={e=>e.target.style.transform="scale(1)"}
             >PLAY AGAIN</button>
             <button onClick={() => {
-              const text = `🚨 BREAKING: WMZ has learned that ${displayName} has been secretly renovating a beachside property and already completed ${score} doors and windows before photographers caught them! 📸🏠🌴 Can you beat my score? #RenoRampage`;
+              const text = `🚨 BREAKING: WMZ has learned that ${displayName} has been secretly renovating a beachside property and already completed ${score} doors and windows before photographers caught them! 📸🏠🌴 Can you beat my score? #RenoReporters`;
               const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
               window.open(url, '_blank');
             }} style={{
               padding:"14px 40px",fontSize:"1rem",fontWeight:800,fontFamily:"inherit",
-              background:"#1a1a2e",border:"none",
+              background:"#5a7d9a",border:"none",
               borderRadius:10,color:C.white,cursor:"pointer",letterSpacing:1,width:"100%",
               display:"flex",alignItems:"center",justifyContent:"center",gap:8,
             }}
