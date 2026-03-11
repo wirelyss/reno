@@ -1,7 +1,13 @@
+[[headers]]
+  for = "/RENOrep.png"
+  [headers.values]
+    Content-Type = "image/png"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  force = false
 
 [build]
   command = "npm run build"
